@@ -181,6 +181,7 @@ T* FindFirstMatchingVideoInterface( VideoInterface& video )
 inline
 picojson::value GetVideoFrameProperties(VideoInterface* video)
 {
+/*
     VideoPropertiesInterface* pi = dynamic_cast<VideoPropertiesInterface*>(video);
     VideoFilterInterface* fi = dynamic_cast<VideoFilterInterface*>(video);
 
@@ -213,12 +214,14 @@ picojson::value GetVideoFrameProperties(VideoInterface* video)
             }
         }
     }
+*/
     return picojson::value();
 }
 
 inline
 picojson::value GetVideoDeviceProperties(VideoInterface* video)
 {
+/*
     VideoPropertiesInterface* pi = dynamic_cast<VideoPropertiesInterface*>(video);
     VideoFilterInterface* fi = dynamic_cast<VideoFilterInterface*>(video);
 
@@ -251,6 +254,7 @@ picojson::value GetVideoDeviceProperties(VideoInterface* video)
             }
         }
     }
+*/
     return picojson::value();
 }
 
